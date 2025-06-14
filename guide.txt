@@ -1,0 +1,31 @@
+npx create-next-app@15.2.4 ai-sales-agent-sass
+go to ui shadcn
+cd ai-sales-agent-sass
+npx shadcn@latest init
+use --legacy-peer-deps
+
+npm i prisma@6.3.1
+npm i @prisma/client@6.3.1
+npx prisma init
+
+npx prisma migrate dev --name init
+npx prisma generate
+npx prisma studio -check db created or not
+
+ npx shadcn@latest add     -for adding all the components
+
+
+
+ ---------
+ git cmds.
+
+ echo "# ai-sales-agent-hackathon" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/manishindiyaar/ai-sales-agent-hackathon.git
+git push -u origin main
+
+------------------------
+
